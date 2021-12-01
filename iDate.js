@@ -3,7 +3,7 @@ const iDate = (date, stringFormat) => {
   try {
     let t;
     if (/(^\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}):(\d{2}$)/.test(date)) {
-      date = date?.split(/\D+/) || [];
+      date = (date || "").split(/\D+/) || [];
       date[1] = Number(date[1]) - 1;
       t = new Date(...date);
     } else {
