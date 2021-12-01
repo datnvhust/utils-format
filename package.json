@@ -1,11 +1,22 @@
 {
   "name": "utils-format",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datnvhust/utils-format.git"
+  },
+  "keywords": [
+    "utils",
+    "format",
+    "iDate",
+    "iParam",
+    "javascript"
+  ],
+  "author": "datnv",
   "license": "MIT",
-  "description": ""
+  "description": "The library fulfills the requirements given by the products that I have made"
 }
